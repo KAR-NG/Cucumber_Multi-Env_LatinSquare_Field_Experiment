@@ -1,7 +1,7 @@
 ---
 title: "Cucumber: Multi-Environment Latin Square Field Experiment"
 author: "Kar Ng"
-date: "7/13/2021"
+date: "2021"
 output: 
   github_document:
     toc: true
@@ -61,6 +61,7 @@ library(lsmeans)
 library(multcomp)
 library(desplot)
 library(DT)
+
 
 ```
 
