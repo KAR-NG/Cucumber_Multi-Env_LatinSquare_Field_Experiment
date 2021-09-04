@@ -1,6 +1,7 @@
 # Cucumber: Multi-Env Latin Square Field Experiment
 
 16 mins | Visualisation + Statistical Analysis
+
 A multi-environment Latin Square designed trial analysed by ANOVA, Two-way ANOVA, Fully Random Model, Mixed Effect Model, and Tukey test.
 
 ---
