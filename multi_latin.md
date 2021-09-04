@@ -186,16 +186,42 @@ is the result of successful data import.
 
 ``` r
 data("bridges.cucumber")
-head(bridges.cucumber)
+bridges.cucumber
 ```
 
-    ##       loc      gen row col yield
-    ## 1 Clemson   Dasher   1   3  44.2
-    ## 2 Clemson   Dasher   2   4  54.1
-    ## 3 Clemson   Dasher   3   2  47.2
-    ## 4 Clemson   Dasher   4   1  36.7
-    ## 5 Clemson Guardian   1   4  33.0
-    ## 6 Clemson Guardian   2   2  13.6
+    ##        loc      gen row col   yield
+    ## 1  Clemson   Dasher   1   3 44.2000
+    ## 2  Clemson   Dasher   2   4 54.1000
+    ## 3  Clemson   Dasher   3   2 47.2000
+    ## 4  Clemson   Dasher   4   1 36.7000
+    ## 5  Clemson Guardian   1   4 33.0000
+    ## 6  Clemson Guardian   2   2 13.6000
+    ## 7  Clemson Guardian   3   1 44.1000
+    ## 8  Clemson Guardian   4   3 35.8000
+    ## 9  Clemson Poinsett   1   1 11.5000
+    ## 10 Clemson Poinsett   2   3 22.4000
+    ## 11 Clemson Poinsett   3   4 30.3000
+    ## 12 Clemson Poinsett   4   2 21.5000
+    ## 13 Clemson   Sprint   1   2 15.1000
+    ## 14 Clemson   Sprint   2   1 20.3000
+    ## 15 Clemson   Sprint   3   3 41.3000
+    ## 16 Clemson   Sprint   4   4 27.1000
+    ## 17  Tifton   Dasher   1   3 53.5463
+    ## 18  Tifton   Dasher   2   4 37.5220
+    ## 19  Tifton   Dasher   3   2 49.3943
+    ## 20  Tifton   Dasher   4   1 61.4758
+    ## 21  Tifton Guardian   1   4 34.7026
+    ## 22  Tifton Guardian   2   2 29.1300
+    ## 23  Tifton Guardian   3   1 40.2423
+    ## 24  Tifton Guardian   4   3 50.7930
+    ## 25  Tifton Poinsett   1   1 36.5749
+    ## 26  Tifton Poinsett   2   3 24.6696
+    ## 27  Tifton Poinsett   3   4 30.7489
+    ## 28  Tifton Poinsett   4   2 40.0661
+    ## 29  Tifton   Sprint   1   2 35.0771
+    ## 30  Tifton   Sprint   2   1 43.3040
+    ## 31  Tifton   Sprint   3   3 38.4251
+    ## 32  Tifton   Sprint   4   4 39.9119
 
 However, in order to show that I use **SQL** programming language, I
 have downloaded the dataset and uploaded it to a database platform named
