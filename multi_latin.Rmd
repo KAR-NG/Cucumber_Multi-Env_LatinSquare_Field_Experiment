@@ -3,18 +3,16 @@ title: "Cucumber: Multi-Environment Latin Square Field Experiment"
 author: "Kar Ng"
 date: "7/13/2021"
 output: 
-  html_document: 
-    code_folding: hide
+  github_document:
     toc: true
-    toc_depth: 4
-    toc_float: true
-  pdf_document: default
+    toc_depth: 3
+always_allow_html: yes
   
 ---
 
 ***
 
-![](C:\Users\karho\Desktop\R and Stats\R for online presence\20210713_p8_MultiEnv - Lartin Square Design\Multi-Latin\pic3_thumbnail.png)
+![](https://raw.githubusercontent.com/KAR-NG/cucum/main/pic3_thumbnail.png)
 
 ***
 
@@ -40,7 +38,7 @@ Final statistical result was achieved by a multi-environment Latin Square model 
 
 <br/>
 
-![](C:\Users\karho\Desktop\R and Stats\R for online presence\20210713_p8_MultiEnv - Lartin Square Design\Multi-Latin\pic6_combined.png)
+![](https://raw.githubusercontent.com/KAR-NG/cucum/main/pic6_combined.png)
 
 <br/>
 
@@ -123,7 +121,7 @@ Following picture shows that I have checked the dataset with SQL codes, and all 
 
 <br/>
 
-![](C:\Users\karho\Desktop\R and Stats\R for online presence\20210713_p8_MultiEnv - Lartin Square Design\Multi-Latin\pic1_sql.JPG)
+![](https://raw.githubusercontent.com/KAR-NG/cucum/main/pic1_sql.JPG)
 
 <br/>
 
@@ -144,7 +142,9 @@ During this operation, the additional column that needs to be cleaned, "int64_fi
 SQL codes:
 
 <br/>
-![](C:\Users\karho\Desktop\R and Stats\R for online presence\20210713_p8_MultiEnv - Lartin Square Design\Multi-Latin\pic2_sql2.JPG)
+
+![](https://raw.githubusercontent.com/KAR-NG/cucum/main/pic2_sql2.JPG)
+
 <br/>
 
 After completing this step, the dataset is downloaded from the database.
@@ -706,7 +706,7 @@ This is a table summarises the final statistical result from section 7.1, 7.2, a
 
 <br/>
 
-![](C:\Users\karho\Desktop\R and Stats\R for online presence\20210713_p8_MultiEnv - Lartin Square Design\Multi-Latin\pic5_finalstat.JPG)
+![](https://raw.githubusercontent.com/KAR-NG/cucum/main/pic5_finalstat.JPG)
 
 <br/>
 
