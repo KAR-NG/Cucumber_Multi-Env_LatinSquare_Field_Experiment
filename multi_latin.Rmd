@@ -101,7 +101,7 @@ The dataset can be assessed through a R package named "agridat" and imported usi
 
 ```{r}
 data("bridges.cucumber")
-datatable(bridges.cucumber)
+head(bridges.cucumber)
 
 ```
 

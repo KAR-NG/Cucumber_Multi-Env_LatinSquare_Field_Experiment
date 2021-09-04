@@ -186,13 +186,16 @@ is the result of successful data import.
 
 ``` r
 data("bridges.cucumber")
-datatable(bridges.cucumber)
+head(bridges.cucumber)
 ```
 
-    ## PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-
-<div id="htmlwidget-d00e467e5143c4f84f9e" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-d00e467e5143c4f84f9e">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32"],["Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton"],["Dasher","Dasher","Dasher","Dasher","Guardian","Guardian","Guardian","Guardian","Poinsett","Poinsett","Poinsett","Poinsett","Sprint","Sprint","Sprint","Sprint","Dasher","Dasher","Dasher","Dasher","Guardian","Guardian","Guardian","Guardian","Poinsett","Poinsett","Poinsett","Poinsett","Sprint","Sprint","Sprint","Sprint"],[1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4],[3,4,2,1,4,2,1,3,1,3,4,2,2,1,3,4,3,4,2,1,4,2,1,3,1,3,4,2,2,1,3,4],[44.2,54.1,47.2,36.7,33,13.6,44.1,35.8,11.5,22.4,30.3,21.5,15.1,20.3,41.3,27.1,53.5463,37.522,49.3943,61.4758,34.7026,29.13,40.2423,50.793,36.5749,24.6696,30.7489,40.0661,35.0771,43.304,38.4251,39.9119]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>loc<\/th>\n      <th>gen<\/th>\n      <th>row<\/th>\n      <th>col<\/th>\n      <th>yield<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[3,4,5]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+    ##       loc      gen row col yield
+    ## 1 Clemson   Dasher   1   3  44.2
+    ## 2 Clemson   Dasher   2   4  54.1
+    ## 3 Clemson   Dasher   3   2  47.2
+    ## 4 Clemson   Dasher   4   1  36.7
+    ## 5 Clemson Guardian   1   4  33.0
+    ## 6 Clemson Guardian   2   2  13.6
 
 However, in order to show that I use **SQL** programming language, I
 have downloaded the dataset and uploaded it to a database platform named
@@ -263,8 +266,8 @@ cucum <- read_csv("cucum_sqlcleaned.csv")
 datatable(cucum)
 ```
 
-<div id="htmlwidget-3b861925dace234085ff" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3b861925dace234085ff">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32"],["Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton"],["Dasher","Dasher","Dasher","Dasher","Guardian","Guardian","Guardian","Guardian","Poinsett","Poinsett","Poinsett","Poinsett","Sprint","Sprint","Sprint","Sprint","Dasher","Dasher","Dasher","Dasher","Guardian","Guardian","Guardian","Guardian","Poinsett","Poinsett","Poinsett","Poinsett","Sprint","Sprint","Sprint","Sprint"],[1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4],[3,4,2,1,4,2,1,3,1,3,4,2,2,1,3,4,3,4,2,1,4,2,1,3,1,3,4,2,2,1,3,4],[44.2,54.1,47.2,36.7,33,13.6,44.1,35.8,11.5,22.4,30.3,21.5,15.1,20.3,41.3,27.1,53.5463,37.522,49.3943,61.4758,34.7026,29.13,40.2423,50.793,36.5749,24.6696,30.7489,40.0661,35.0771,43.304,38.4251,39.9119]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>location<\/th>\n      <th>genotype<\/th>\n      <th>row<\/th>\n      <th>column<\/th>\n      <th>yield<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[3,4,5]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-9c180e09127cf17e5f7b" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9c180e09127cf17e5f7b">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32"],["Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Clemson","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton","Tifton"],["Dasher","Dasher","Dasher","Dasher","Guardian","Guardian","Guardian","Guardian","Poinsett","Poinsett","Poinsett","Poinsett","Sprint","Sprint","Sprint","Sprint","Dasher","Dasher","Dasher","Dasher","Guardian","Guardian","Guardian","Guardian","Poinsett","Poinsett","Poinsett","Poinsett","Sprint","Sprint","Sprint","Sprint"],[1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4],[3,4,2,1,4,2,1,3,1,3,4,2,2,1,3,4,3,4,2,1,4,2,1,3,1,3,4,2,2,1,3,4],[44.2,54.1,47.2,36.7,33,13.6,44.1,35.8,11.5,22.4,30.3,21.5,15.1,20.3,41.3,27.1,53.5463,37.522,49.3943,61.4758,34.7026,29.13,40.2423,50.793,36.5749,24.6696,30.7489,40.0661,35.0771,43.304,38.4251,39.9119]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>location<\/th>\n      <th>genotype<\/th>\n      <th>row<\/th>\n      <th>column<\/th>\n      <th>yield<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[3,4,5]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 
 ### 4.4 Data description
 
