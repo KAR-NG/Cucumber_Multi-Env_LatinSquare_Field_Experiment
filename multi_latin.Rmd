@@ -105,7 +105,7 @@ datatable(bridges.cucumber)
 
 ```
 
-<br/>
+
 However, in order to show that I use **SQL** programming language, I have downloaded the dataset and uploaded it to a database platform named **BigQuery**. I will perform data checking and cleaning on the database with SQL programming language, although I can perform all of these steps in R. **BigQuery** is a widely used online database that allow users to work with data with SQL programming language. 
 
 ### 4.1 SQL Data checking 
