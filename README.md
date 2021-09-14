@@ -12,6 +12,7 @@ A multi-environment Latin Square designed trial analysed by ANOVA, Two-way ANOVA
 ---
 ![pic6_combined](https://user-images.githubusercontent.com/81752452/132093382-5710684a-4546-4671-b89a-63156cd7bc76.png)
 ---
+
 *Reference*
 
 Ausmus S 2007, “Photograph of cucumber vine with fruits, flowers and leaves visible”, viewed 13 July 2021, https://en.wikipedia.org/wiki/Cucumber#/media/File:ARS_cucumber.jpg
